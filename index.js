@@ -61,6 +61,7 @@ export const burger = {
       return 'No Dicsount!';
     }
   }
+}
   
  
 
@@ -83,7 +84,7 @@ Using the reviews array above:
 */
 
 
-console.log('task 3', review[5].feedback);
+console.log('task 3', reviews[5].feedback);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Using the reviews array above do the following: (no function needed) 
@@ -102,6 +103,9 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
+console.log(reviews[7].feedback = 'this place is chill with really cool people, great for getting work done on weekdays');
+
+
 
 
 
@@ -117,8 +121,8 @@ Use the getReviewByIndex function below to do the following:
 */
 
 
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
+function getReviewByIndex(array, num) {
+  return `${array[num].name} gave the restaurant a ${array[num].rating} star review, and their feedback was: ${array[num].feedback}`;
 }
 
 
